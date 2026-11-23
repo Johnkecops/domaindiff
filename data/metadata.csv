@@ -1,0 +1,8 @@
+file,source_url,version,downloaded,md5,licence,notes
+data/raw/mtb_UP000001584.fasta,https://rest.uniprot.org/uniprotkb/stream?query=proteome:UP000001584&format=fasta,UniProtKB as of download,2026-11-23,294f70218ff6b08825e4b29d91d7c550,CC BY 4.0,"3997 sequences, M. tuberculosis H37Rv reference proteome"
+data/raw/pfam35/Pfam-A.hmm.gz,https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam35.0/Pfam-A.hmm.gz,Pfam 35.0 (11/2021),2026-11-23,2cdbfbec0e3c6f0b1ecb6db1b8fc337f,CC0,19632 families; md5 matches release md5_checksums
+data/raw/pfam39/Pfam-A.hmm.gz,https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam39.0/Pfam-A.hmm.gz,Pfam 39.0 (11/2026),2026-11-23,743b20dde4c846dfd67ef30913a4c7b3,CC0,53275 families; md5 matches release md5_checksums
+data/raw/pfam39/Pfam-A.dead.gz,https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam39.0/Pfam-A.dead.gz,Pfam 39.0,2026-11-23,ada9be46189c4da21998471549dbc757,CC0,"854 single-forward records used for mapping, 503 without forward"
+data/raw/mtb_pfam35.domtbl,generated,HMMER 3.4 hmmsearch --cut_ga --cpu 7 --noali,2026-11-23,348326d8e7cf88cc10de850683039b93,derived,6543 domain hits; 139 s
+data/raw/mtb_pfam39.domtbl,generated,HMMER 3.4 hmmsearch --cut_ga --cpu 7 --noali,2026-11-23,1dfc4d3631183b9fb339e4cee7232944,derived,7341 domain hits; 352 s
+data/raw/pfam39_dead_mapping.tsv,generated,scripts/pfam_dead_to_mapping.py,2026-11-23,7ce750647fda1600ffbd871ca846f5c2,derived,854 mappings
